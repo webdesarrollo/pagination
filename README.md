@@ -1,1 +1,1 @@
-# paginator
+# pagination
