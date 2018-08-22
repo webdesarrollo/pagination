@@ -19,7 +19,7 @@ class PaginationServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/resources/views' => $this->app->resourcePath('views/vendor/pagination'),
-            ], 'laravel-pagination');
+            ], 'sejo-laravel-pagination');/*laravel-pagination*/
         }
     }
 
